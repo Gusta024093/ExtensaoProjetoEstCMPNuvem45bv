@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+    font-family: 'Roboto', 'Arial';
+}
+
+.formulario-login{
+    display: flex;
+    min-height: 100vh;
+    text-align: center;
+    /* margin: 0 27% 0 27%; */
+    justify-content: center; 
+    align-items: center;
+
+}
+
+.formulario-cadastro{
+    display: flex;
+    min-height: 100vh;
+    text-align: center;
+    margin: 0 27% 0 27%;
+    justify-content: center; 
+    align-items: center;
+
+}
+
+#caixa-delimitadora{
+    text-align: center;
+}
+
+.form1{
+    margin-bottom: 35px;
+}
+
+#id_botao_cliente{
+    margin-bottom: 0;
+}
+
+#cliente-cadastro{
+    text-align: center;
+}
+
+label[for="nome"]{
+    width: 33%;
+}
+
+#nome{
+    width: 100%;
+}
+
+#sobrenome{
+    width: 100%;
+}
+
+#email{
+    width: 100%;
+}
+
+#senha{
+    width: 100%;
+}
+
+#senha2{
+    width: 100%;
+}
+
+
+label[for="sobrenome"]{
+    width: 33%;
+}
+
+.formulario-cadastro input {
+    display: block; 
+    margin: 0 auto; 
+}
+
